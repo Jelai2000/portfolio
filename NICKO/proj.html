@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicko | Portfolio</title>
+    <link rel="shortcut icon" href="./LOGO1.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@600;800&family=DM+Sans:opsz,wght@9..40,500&family=Kanit&family=REM:wght@400;500&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@600;800&family=DM+Sans:opsz,wght@9..40,500&family=Kanit&family=Paytone+One&family=REM:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar" id="navbar">
+            <div class="icon">
+                <a href="index.html">
+                    <h1>nick<span>Code</span></h1>
+                </a>
+            </div>
+            <div class="link" ">
+                <a href="index.html" class="hover-border">Home</a>
+                <a href="index.html#about" class="hover-border">About Me</a>
+                <a href="index.html#skills" class="hover-border">Skills</a>
+                <a href="index.html#projects" class="hover-border">Projects</a>
+                <a href="index.html#contact" class="hover-border">Contact</a>
+            </div>
+        </div>
+        
+
+
+        <div class="projects hiddenprojects" id="projects">
+            <div class="description">
+                <h1>Projects</h1>
+                <p>Each project's foundation lies in HTML, CSS, and JavaScript, while Firebase empowers functionality, security, and user engagement. These technologies combine to create compelling, responsive, and user-centric digital experiences."</p>
+            </div>
+            <section class="clickable-divs">
+                <div class="clickable-div" style="background-image: url('./background/bikers.png');">
+                  <a href="https://bikerist.web.app/" target="_blank">
+                    <div class="overlay">
+                        <h1>Bikerist</h1>
+                        <h4>It's a responsive E-commerce website for the people who love a bike .</h4>
+                     </div>
+                  </a>
+                </div>
+                <div class="clickable-div" style="background-image: url('./background/mc.png');">
+                  <a href="https://motherschoicephilippines.web.app/" target="_blank">
+                    <div class="overlay">
+                        <h1>MothersChoice</h1>
+                        <h4>It's a responsive website for the people who wants to learn healthy and affordable meal of the day.</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="clickable-div" style="background-image: url('./background/fe.png');">
+                  <a href="https://febootcamp.web.app/" target="_blank">
+                    <div class="overlay">
+                      <h1>FrontEnd BootCamp</h1>
+                      <h4>It's a responsive website for the people who wants to learn and pursue frontend development.</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="clickable-div" style="background-image: url('./background/dict.png');">
+                    <a href="https://personalwebsiteee.web.app/" target="_blank">
+                      <div class="overlay">
+                          <h1>Personal Project</h1>
+                          <h4>It's a responsive website about me it contains my schedule, favorite music, qoutes, gallery and a homepage.</h4>
+                      </div>
+                    </a>
+                </div>
+              </section>
+    
+    
+    
+    
+              
+    
+    
+            <h2 class="footertag hiddenskill" style="margin-top: 100px">Follow Me</h2>
+            <section class="footer hiddenskill"style="margin-bottom: 0; " >
+    
+                <div class="fb soc">
+                    <a href="https://www.facebook.com/icko.reanzares">
+                        <img src="./social/facebook (1).png" alt="">
+                    </a>
+                </div>
+                <div class="ig soc">
+                    <a href="https://instagram.com/nickovr?igshid=OGQ5ZDc2ODk2ZA==">
+                        <img src="./social/instagram (1).png" alt="">
+                        
+                    </a>
+                </div>
+                <div class="git soc">
+                    <a href="https://github.com/Jelai2000/">
+                        <img src="./social/github1 (1).png" alt="">
+                    </a>
+                </div>
+                <div class="link soc">
+                    <a href="https://www.linkedin.com/in/nicko-reanzares/">
+                        <img src="./contact/linkedin.png" alt="">
+                    </a>
+    
+                </div>
+    
+            </section>
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+<script>
+    
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+    } else {
+      
+      entry.target.classList.remove('show');
+    }
+
+
+  });
+});
+
+const homapage = document.querySelectorAll('.hiddenhome');
+homapage.forEach((el) => observer.observe(el));
+
+
+
+const hiddenElementss = document.querySelectorAll('.hiddenhomeright');
+hiddenElementss.forEach((el) => observer.observe(el));
+
+const hiddenabout = document.querySelectorAll('.hiddenabout');
+hiddenabout.forEach((el) => observer.observe(el));
+
+const hiddenskill = document.querySelectorAll('.hiddenskill');
+hiddenskill.forEach((el) => observer.observe(el));
+
+const hiddenproj = document.querySelectorAll('.hiddenproj');
+hiddenproj.forEach((el) => observer.observe(el));
+
+const hiddenprojL = document.querySelectorAll('.hiddenprojL');
+hiddenprojL.forEach((el) => observer.observe(el));
+const hiddenprojR = document.querySelectorAll('.hiddenprojR');
+hiddenprojR.forEach((el) => observer.observe(el));
+
+
+
+
+const hiddenprojects = document.querySelectorAll('.hiddenprojects');
+hiddenprojects.forEach((el) => observer.observe(el));
+
+</script>
+</body>
+</html>
