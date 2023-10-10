@@ -1,0 +1,128 @@
+
+.homepage{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    z-index: 7;
+    padding: 0 100px;
+}
+.homepage .details{
+    font-family: 'REM', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    padding-right: 0;
+    padding-top: 50px;
+}
+.homepage .details h1:nth-child(1){
+    font-size: 80px;
+
+}
+.homepage .details h1,h3,h2,p{
+    margin: 0;
+}
+.homepage .details h3,p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.btn{
+    font-family: 'REM', sans-serif;
+    border: none;
+    color: #20201f;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    
+    height: 50px;
+    width: 300px;    
+    transition: all .3s;  
+    background: linear-gradient(to right, #f54b64, #f78361);
+    z-index: 3;
+}
+.btn:hover{
+    border-radius: 50px;
+    color: #20201f; 
+    cursor: pointer;
+}
+.gradient-text {
+    background: linear-gradient(45deg, #f54b64, #f78361);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+
+.homepage .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage .image img{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    z-index: 3;
+    border-radius: 50%;
+    /* background-color: #f54b64; */
+    box-shadow: 0 0 10px 5px #f54b64;
+
+}
+
+
+.svg{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+
+.homepage .details h1{
+  font-size: 60px;
+
+}
+.homepage span{
+  color: #f54b64;  
+}  
+
+
+
+
+
+.homepage a img{
+    height: 30px;
+  
+  }
+  
+  .homepage .media{
+    height: 50px;
+    gap: 15px;    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  
+  .homepage .soc{
+    transition: all .2s ease-in-out;
+  
+  }
+  .homepage .soc:hover{
+    padding-bottom: 10px;
+    transition: all .2s ease-in-out;
+  }
+  
+
+  

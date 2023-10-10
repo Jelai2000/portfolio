@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicko | Portfolio</title>
     <link rel="shortcut icon" href="./LOGO1.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comme:wght@600;800&family=DM+Sans:opsz,wght@9..40,500&family=Kanit&family=REM:wght@400;500&display=swap" rel="stylesheet"> -->
@@ -22,12 +22,19 @@
                     <h1>nick<span>Code</span></h1>
                 </a>
             </div>
-            <div class="link" ">
-                <a href="#home" class="hover-border">Home</a>
-                <a href="#about" class="hover-border">About Me</a>
-                <a href="#skills" class="hover-border">Skills</a>
-                <a href="#projects" class="hover-border">Projects</a>
-                <a href="#contact" class="hover-border">Contact</a>
+            <div class="link">
+                <a href="#home" class="hover-border home">Home</a>
+                <a href="#about" class="hover-border about">About Me</a>
+                <a href="#skills" class="hover-border skills">Skills</a>
+                <a href="#projects" class="hover-border proj">Projects</a>
+                <a href="#contact" class="hover-border contact">Contact</a>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
             </div>
         </div>
         
@@ -43,9 +50,42 @@
                  
                 
                 <p>I'm a developer who transforms ideas into interactive web experiences through code and creativity.</p>
+                
+                <div class="media">
+                    <div class="fb soc">
+                        <a href="https://www.facebook.com/icko.reanzares">
+                            <img src="./social/facebook (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="ig soc">
+                        <a href="https://instagram.com/nickovr?igshid=OGQ5ZDc2ODk2ZA==">
+                            <img src="./social/instagram (1).png" alt="">
+                            
+                        </a>
+                    </div>
+                    <div class="git soc">
+                        <a href="https://github.com/Jelai2000/">
+                            <img src="./social/github1 (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="link soc">
+                        <a href="https://www.linkedin.com/in/nicko-reanzares/">
+                            <img src="./contact/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                
+                
                 <a href="./Resume-NICKO-REANZARES.pdf" download class="hireme">
                     <button class="btn">Hire Me</button>
                 </a>
+
+
+
+
+
+                
             </div>
             <div class="image hiddenhomeright">
                 <img  src="./pogi1.jpg" alt="">
@@ -277,6 +317,9 @@
             backSpeed : 80,
             backDelay : 1500
         })
+
+
+        
     </script>
     <script src="index.js"></script>
 </body>

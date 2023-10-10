@@ -1,0 +1,44 @@
+
+
+
+
+.footertag{
+    color: #f54b64;
+    font-family: 'REM', sans-serif;
+    text-align: center;
+  }
+  
+  .footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0 0 0;
+    margin-bottom: 100px;
+  
+  }
+  
+  
+  .footer a img{
+    height: 30px;
+  
+  }
+  
+  
+  .footer .soc{
+    transition: all .2s ease-in-out;
+  }
+
+
+  .footer .soc:hover{
+    padding-bottom: 10px;
+    transition: all .2s ease-in-out;
+  }
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,155 @@
+
+@import url(./navbar.css);
+@import url(./homepage.css);
+@import url(skills.css);
+@import url(projects.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(responsive.css);
+@import url(./animation.css);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    margin-bottom: 0;
+    background-color: #1B1A1A;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.section{
+        scroll-behavior: smooth;
+
+}
+
+
+
+/* colors
+    primary: #f54b64
+             #f78361
+    secondary: #ffd428
+
+    dark grey: #4e586e
+    white : #ffffff 
+
+    */
+
+/* 
+    *FONTS
+    font-family: 'Comme', sans-serif;
+    font-family: 'DM Sans', sans-serif; 
+    
+*/
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

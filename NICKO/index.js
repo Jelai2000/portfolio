@@ -83,7 +83,36 @@ const hiddenprojR = document.querySelectorAll('.hiddenprojR');
 hiddenprojR.forEach((el) => observer.observe(el));
 
 
-
-
 const hiddenprojects = document.querySelectorAll('.hiddenprojects');
 hiddenprojects.forEach((el) => observer.observe(el));
+
+
+
+
+
+
+
+const hamburger = document.querySelector(".hamburger");
+const navList = document.querySelector(".link");
+const section = document.querySelectorAll(".about, .home, .skills, .proj, .contact");
+
+section.forEach(section => {
+section.addEventListener("click" , () => {
+  navList.classList.toggle("active");
+});
+
+});
+
+
+hamburger.addEventListener("click", () => {
+  // hamburger.classList.toggle("active");
+  navList.classList.toggle("active");
+})
+
+
+
+// document.querySelectorAll(".link").forEach(n=> n.addEventListener("click", ()=>{
+//   hamburger.classList.remove("active");
+//   navList.classList.remove("active");
+
+// }))
