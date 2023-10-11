@@ -28,6 +28,13 @@
                 <a href="index.html#projects" class="hover-border">Projects</a>
                 <a href="index.html#contact" class="hover-border">Contact</a>
             </div>
+            
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+
+          </div>
         </div>
         
 
@@ -168,6 +175,24 @@ hiddenprojR.forEach((el) => observer.observe(el));
 
 const hiddenprojects = document.querySelectorAll('.hiddenprojects');
 hiddenprojects.forEach((el) => observer.observe(el));
+
+const hamburger = document.querySelector(".hamburger");
+const navList = document.querySelector(".link");
+const section = document.querySelectorAll(".about, .home, .skills, .proj, .contact");
+
+section.forEach(section => {
+section.addEventListener("click" , () => {
+  navList.classList.toggle("active");
+});
+
+});
+
+
+hamburger.addEventListener("click", () => {
+  // hamburger.classList.toggle("active");
+  navList.classList.toggle("active");
+})
+
 
 </script>
 </body>
