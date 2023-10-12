@@ -6,7 +6,7 @@
 .hiddenhome{
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transform: translateX(-5%);
     transition: all 1s;
   }
   
@@ -14,21 +14,22 @@
   .hiddenhomeright{
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(250%);
+    transform: translateX(5%);
     transition: all 1s;
+    display: none;
   }
   
    .hiddenabout{
     opacity: 0;
     filter: blur(8px);
-    transform: translateY(30%);
+    transform: translateY(10%);
     transition: all 1s;
   }
   
   .hiddenproj{
    opacity: 0;
    filter: blur(8px);
-   transform: translateY(30%);
+   transform: translateY(10%);
    transition: all 1s;
   }
   
@@ -41,14 +42,14 @@
    .hiddenprojR{
     opacity: 0;
     filter: blur(8px);
-    transform: translateX(10%);
+    transform: translateX(5%);
     transition: all 1s;
    }
   
   .hiddenskill{
     opacity: 0;
     filter: blur(8px);
-    transform: translateY(30%);
+    transform: translateY(10%);
     transition: all 1s;
   }
   

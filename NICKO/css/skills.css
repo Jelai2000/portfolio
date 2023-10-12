@@ -11,15 +11,15 @@
     padding-bottom: 150px;
 }
 
-.skills-section .skills{
+.skills-section .skillss{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 150px;
+    padding: 0 100px;
     gap: 40px;
     text-align: center;
     justify-content: center;
 }
-.skills-section .skills .icon{ 
+.skills-section .skillss .icon{ 
     display: flex;
     flex-direction: column;
     padding: 5px 20px;
@@ -30,18 +30,18 @@
 
 
 
-.skills-section .skills .icon:hover{ 
+.skills-section .skillss .icon:hover{ 
     box-shadow: 0 0 20px rgba(207, 61, 61, 0.5); 
 }
 
-.skills-section .skills .icon p{
+.skills-section .skillss .icon p{
     margin: 0;
     margin-top: 10px;
     color: #ffffff;
     font-family: 'REM', sans-serif;
 
 }
-.skills-section .skills img{
+.skills-section .skillss img{
     margin-top: 10px;
     height: 90px;
     width: 90px;
